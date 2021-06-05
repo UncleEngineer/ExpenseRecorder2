@@ -6,7 +6,7 @@ from datetime import datetime
 # ttk is theme of Tk
 
 GUI = Tk()
-GUI.title('โปรแกรมบันทึกค่าใช้จ่าย by Uncle Engineer')
+GUI.title('โปรแกรมบันทึกค่าใช้จ่าย v.1.0 by Uncle Engineer')
 GUI.geometry('600x700+500+50')
 
 # B1 = Button(GUI,text='Hello')
@@ -23,6 +23,7 @@ filemenu.add_command(label='Import CSV')
 filemenu.add_command(label='Export to Googlesheet')
 # Help
 def About():
+	print('About Menu')
 	messagebox.showinfo('About','สวัสดีครับ โปรแกรมนี้คือโปรแกรมบันทึกข้อมูล\nสนใจบริจาคเราไหม? ขอ 1 BTC ก็พอแล้ว\nBTC Address: abc')
 
 
